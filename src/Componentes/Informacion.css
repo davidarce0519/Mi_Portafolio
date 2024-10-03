@@ -1,0 +1,72 @@
+.habilidadesBlandas{
+    font-size: 40px;            /* Tamaño de fuente para la profesión */
+    margin: 0;   
+    left: 250px;        /* Centrar el texto */
+    margin-top: 0px; 
+  }
+  
+  .HB{
+    font-size: 20px;            /* Tamaño de fuente para la profesión */
+    margin: 0;   
+    text-align: center;        /* Centrar el texto */
+    margin-top: 20px; 
+  }
+  .HabiB {
+    width: 500px;                /* Ancho de la tarjeta */
+    padding: 20px;               /* Espaciado interno */
+    background-color: #6c94f3;   /* Color de fondo */
+    border-radius: 10px;         /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra para dar profundidad */
+    text-align: center;          /* Centrar el texto */
+    margin: 50px auto;            /* Centrar la tarjeta en la página */
+  }
+  .HabiF {
+    width: 500px;                /* Ancho de la tarjeta */
+    padding: 20px;               /* Espaciado interno */
+    background-color: #6c94f3;   /* Color de fondo */
+    border-radius: 10px;         /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra para dar profundidad */
+    text-align: center;          /* Centrar el texto */
+    margin: 50px auto;           /* Centrar la tarjeta en la página */
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;  /* Centrar horizontalmente */
+    align-items: flex-start;
+    height: 45vh;            /* Altura del contenedor igual al 100% de la ventana */
+    padding-top: 40px;
+}
+
+.nombre {
+    font-size: 25px;            /* Tamaño de fuente para el nombre */
+    margin: 0;
+    text-align: center;        /* Centrar el texto */
+    
+  }
+  
+  .Profesion {
+    font-size: 25px;            /* Tamaño de fuente para la profesión */
+    margin: 0;   
+    text-align: center;
+    margin-top: 10px;         /* Centrar el texto */
+  }
+  .texto{
+    font-size: 25px;            /* Tamaño de fuente para la profesión */
+    margin: 0;   
+    text-align: center;        /* Centrar el texto */
+    margin-top: 10px; 
+  }
+  
+  .texto1{
+    font-size: 100px;            /* Tamaño de fuente para la profesión */
+    margin: 0;   
+    text-align: center;        /* Centrar el texto */
+    margin-top: 100px; 
+  }
+  .centered-image {
+    width: 250px;             /* Ancho de la imagen */
+    height: 250px;            /* Altura de la imagen */
+    object-fit: cover;        /* Ajusta la imagen para que no se deforme */
+    border-radius: 10px;      /* Opcional: redondear bordes */
+}

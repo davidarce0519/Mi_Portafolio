@@ -1,0 +1,52 @@
+.title {
+    text-align: center;              /* Centra el texto horizontalmente */
+    font-size: 24px;                 /* Tamaño del texto */
+    font-weight: bold;               /* Estilo en negrita */
+    padding: 20px;                   /* Espaciado interno */
+    border: 2px solid #23da8e;          /* Borde alrededor del div */
+    border-radius: 10px;             /* Bordes redondeados */
+    margin: 20px auto;                    /* Margen externo */
+    background-color: #3bffe8;       /* Color de fondo */
+    width: 300px;
+  }
+  .container {
+    display: flex;                      /* Utiliza Flexbox para alinear las tarjetas en fila */
+    justify-content: space-around;     /* Espacia las tarjetas uniformemente */
+    margin: 20px;   
+    top: 190px;  /* Ajusta esto según la distancia desde la parte superior */                   /* Margen alrededor del contenedor */
+  }
+  
+  .card {
+    border: 2px solid #000;            /* Borde alrededor de cada tarjeta */
+    border-radius: 10px;               /* Bordes redondeados */
+    padding: 10px;                     /* Espaciado interno */
+    text-align: center;                /* Centra el texto dentro de la tarjeta */
+    background-color: #f9f9f9;         /* Color de fondo */
+    width: 200px;                      /* Ancho de la tarjeta */
+  }
+  
+  .card img {
+    max-width: 100%;                   /* Asegura que la imagen no exceda el ancho de la tarjeta */
+    border-radius: 5px;                /* Bordes redondeados para la imagen */
+  }
+  
+  .card a {
+    text-decoration: none;              /* Quita el subrayado del hipervínculo */
+    color: #000;                       /* Color del texto del hipervínculo */
+  }
+  .title2 {
+    text-align: center;              /* Centra el texto horizontalmente */
+    font-size: 24px;                 /* Tamaño del texto */
+    font-weight: bold;               /* Estilo en negrita */
+    padding: 20px;                   /* Espaciado interno */
+    border: 2px solid #23da8e;          /* Borde alrededor del div */
+    border-radius: 10px;             /* Bordes redondeados */
+    margin: 20px auto;                    /* Margen externo */
+    background-color: #3bffe8;       /* Color de fondo */
+    width: 300px;
+    left: 250px;
+  
+  }
+  .Proyectos{
+    margin-top: 100px;
+  }

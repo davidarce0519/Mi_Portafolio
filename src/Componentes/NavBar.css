@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #386fd4;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif; /* Fuente redondeada */
+}
+
+/* Centramos los links */
+.nav-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin-left: -100px; /* Corre los elementos 100px hacia la izquierda */
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif; /* Fuente redondeada */
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ff9900;
+}
+
+body {
+  padding-top: 60px; /* Para evitar que el contenido quede debajo del navbar */
+  font-family: 'Poppins', sans-serif; /* Aplicamos la fuente al cuerpo de la página */
+}

@@ -1,0 +1,63 @@
+.logoFb {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 2750px;  /* Ajusta esto según la distancia desde la parte superior */
+    left: 100px; /* Ajusta esto según la distancia desde el lado izquierdo */
+  }
+  
+  .facebook {
+    font-size: 24px; /* Ajusta el tamaño de la fuente */
+    margin: 0; /* Elimina márgenes para un mejor ajuste */
+    position: absolute;
+    top: 2780px;  /* Ajusta esto según la distancia desde la parte superior */
+    left: 250px; /* Ajusta esto según la distancia desde el lado izquierdo */
+  }
+  .contenedorFb {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el texto y el logo */
+  }
+  
+  .logoGm {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 2950px;  /* Ajusta esto según la distancia desde la parte superior */
+    left: 100px; /* Ajusta esto según la distancia desde el lado izquierdo */
+  }
+  
+  .Gmail {
+    font-size: 24px; /* Ajusta el tamaño de la fuente */
+    margin: 0; /* Elimina márgenes para un mejor ajuste */
+    position: absolute;
+    top: 2980px;  /* Ajusta esto según la distancia desde la parte superior */
+    left: 250px; /* Ajusta esto según la distancia desde el lado izquierdo */
+  }
+  .contenedorGm {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el texto y el logo */
+  }
+  
+  .logoGit {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 3100px;  /* Ajusta esto según la distancia desde la parte superior */
+    left: 100px; /* Ajusta esto según la distancia desde el lado izquierdo */
+  }
+  
+  .Git {
+    font-size: 24px; /* Ajusta el tamaño de la fuente */
+    margin: 0; /* Elimina márgenes para un mejor ajuste */
+    position: absolute;
+    top: 3130px;  /* Ajusta esto según la distancia desde la parte superior */
+    left: 250px; /* Ajusta esto según la distancia desde el lado izquierdo */
+  }
+
+  .Freddy {
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    height: 45vh;            /* Altura del contenedor igual al 100% de la ventana */
+    padding-top: 150px;
+    left: 750px; /* Ajusta esto según la distancia desde el lado izquierdo */
